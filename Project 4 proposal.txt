@@ -1,0 +1,11 @@
+Our group project will be focused on analyzing flight data from Airlines and Airports within the United States to see if there are correlations and predictions 
+on flight delays based on Destination//Arrival Airport, the day of the week, and the Airline chosen.
+
+We'll be incorporating Python - Pandas, Matplotlib, SKlearn and a variety of packages including Seaborn to help train and scale our data to find answers.
+We also plan to incorporate Tableau to provide visually-appealing dashboards to also help tell our story on whether we can predict a delay.
+
+Kaggle links for consideration include:
+https://www.kaggle.com/datasets/jimschacko/airlines-dataset-to-predict-a-delay
+
+Project 4 group members:
+Neel Patel, Alfredo Garcia, Connor Grant, and Yousuf Amin Al Fatwa
