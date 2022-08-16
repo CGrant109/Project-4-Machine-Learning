@@ -30,7 +30,8 @@
   - Flask
 
 ## Models Used
-  - Logistics Regression
-  - DecisionTreeClassifier
+  - Logistic Regression
+  - Random Forrest Classifier
+  - Confusion Matrix
 
 ## Output 
