@@ -1,107 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Airline Predection Models</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="../static/css/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <section>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-6">
-                        <h1 class="mt-5">Delay Predection</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-                
-                <div>
-                    <select class="form-select form-select-lg mb-1" aria-label=".form-select-lg example">
-                        <option value="2">AA-American Airlines Inc</option>
-                        <option value="3">US-US Airways Inc</option>
-                        <option value="4">F9-Frontier Airlines Inc</option>
-                        <option value="5">B6-JetBlue Airways</option>
-                        <option value="6">OO-Skywest Airlines Inc</option>
-                        <option value="7">AS-Alaska Airlines Inc</option>
-                        <option value="7">NK-Spirit Air Lines</option>
-                        <option value="9">WN-Southwest Airlines Co</option>
-                        <option value="10">DL-Delta Air Lines Inc</option>
-                        <option value="11">EV-Atlantic Southeast Airlines</option>
-                        <option value="12">HA-Hawaiian Airlines Inc</option>
-                        <option value="13">MQ-American Eagle Airlines Inc</option>
-                        <option value="14">VX-Virgin America</option>
-                        
-                      </select>
-                </div>
-                <div>
-                    <select class="form-select form-select-lg mb-1" aria-label=".form-select-lg example">
-                        <option selected="">Select Time</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                </div>
-                <div>
-                    <select class="form-select form-select-lg mb-1" aria-label=".form-select-lg example">
-                        <option selected="">Select Month</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                </div>
-                <div>
-                    <select class="form-select form-select-lg mb-1" aria-label=".form-select-lg example">
-                        <option selected="">Select Day</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                </div>
-                <div>
-                    <select class="form-select form-select-lg mb-1" aria-label=".form-select-lg example">
-                        <option selected="">Select Airport From</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                </div>
-                <div>
-                    <select class="form-select form-select-lg mb-1" aria-label=".form-select-lg example">
-                        <option selected="">Select Destination Airport </option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                </div>
 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Airline Predection Models</title>
+    <!-- Favicon-->
+    <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../static/css/style.css" rel="stylesheet" />
+    <!-- for time -->
+    <!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>  
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js"></script>  -->
+</head>
+<!-- <script>  
+        $(function() {  
+          $('#datetimepicker1').datetimepicker();  
+        });  
+        </script>  
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">  
+        <style>  
+            body{
+              background-color: beige;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .container {  
+                margin-top : 80px;  
+                width : 800px;  
+            }  
+        </style>   -->
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#!">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                </ul>
             </div>
-        </section>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script scr="../static/js/app.js"></script>
-    </body>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <section>
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-lg-6">
+                    <h1 class="mt-5">Delay Predection</h1>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <!-- Date -->
+        <div class="container ">
+            <div class="row gx-3">
+                <div class="col-6 col-md-4">
+
+                    <label for="start">Flight Date:</label>
+                    <input type="date" id="flightDate" name="trip-start" value="2018-07-22" min="2018-01-01">
+                </div>
+                <div class="col-6 col-md-4">
+                    <label for="appt">Choose your Flight Time</label>
+                    <input type="time" id="flightTime" name="appt" min="00:00" max="23:59" required>
+
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <!-- Airlines -->
+        <div class="container ">
+            <div class="row gx-3 ">
+                <div class="col-md-8">
+                    <label class="my-label">Airline</label>
+                    <select id="selAirlines" class="form-select form-select-lg mb-1"
+                        aria-label=".form-select-lg example" onchange="optionChanged(this.value)">
+                        {% for airline in airlines %}
+                        <option value="{{ airline.IATA_CODE }}: {{ airline.AIRLINE}}">{{ airline.IATA_CODE}}: {{
+                            airline.AIRLINE}}</option>
+                        {% endfor %}
+                    </select>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </section>
+    <section>
+        <div class="container ">
+            <!-- Airports -->
+            <div class="row gx-0 ">
+                <div class="col-md-6 ">
+                    <label class="my-label">From Airport</label>
+                    <select id="selAirports1" class="form-select form-select-lg mb-1"
+                        aria-label=".form-select-lg example">
+                        {% for airport in airports %}
+                        <option value="{{ airport.IATA_CODE }}: {{ airport.AIRLINE}}">{{ airport.IATA_CODE}}: {{
+                            airport.AIRPORT}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-md-6 ">
+                    <label class="my-label">Destination Airport</label>
+                    <select id="selAirports2" class="form-select form-select-lg mb-1"
+                        aria-label=".form-select-lg example">
+                        {% for airport in airports %}
+                        <option value="{{ airport.IATA_CODE }}: {{ airport.AIRLINE}}">{{ airport.IATA_CODE}}: {{
+                            airport.AIRPORT}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <div class="container ">
+            <div class="row gx-0 ">
+                <div class="col-md-6 ">
+                    <button id="predect" type="button" class="btn btn-primary btn-lg">Predect</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="../static/js/app.js"></script>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+</body>
+
 </html>
+
+
+
+<!-- 
+                <!-- <div class="col-6 col-md-4">
+                        <label class="my-label">Select Day</label>
+                        <select id="selDay" class="form-select form-select-lg mb-1 "
+                            aria-label=".form-select-lg example">
+                        </select>
+                    </div>
+                    <div class="col-6 col-md-4">
+
+                        <label class="my-label">Select Month</label>
+                        <input type="month" id="start" name="start" min="2018-03" value="2018-05">
+                        <!-- <select id="selMonth" class="form-select form-select-lg mb-1 "
+                        aria-label=".form-select-lg example"></select> -->
+</div>
+<!-- <div class="col-6 col-md-4">
+                                <label class="my-label">Select Date</label>
+                                <select class="form-select form-select-lg mb-1 " aria-label=".form-select-lg example"></select>
+                            </div> -->
+
+</div>
+
+
+</section>
+<!-- Time -->
+<!-- <div class="container ">
+                    <div class="row ">
+                        <div class="col-6 col-md-4">
+                            <label class="my-label">Select Hour</label>
+                            <select id="selDay" class="form-select form-select-lg mb-1 " aria-label=".form-select-lg example">
+        
+                            </select>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <label class="my-label">Select Minute</label>
+                            <select id="selMinute" class="form-select form-select-lg mb-1 "
+                                aria-label=".form-select-lg example">
+        
+        
+                            </select>
+        
+                        </div>
+        
+                    </div>
+                </div> -->

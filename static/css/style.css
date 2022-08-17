@@ -487,6 +487,18 @@ progress {
   display: none !important;
 }
 
+#selAirports1{
+  width: 95%;
+
+}
+#selAirports2{
+  width: 95%;
+
+}
+#flightDate{
+size = 100%;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -638,6 +650,8 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 576px) {
@@ -884,6 +898,9 @@ progress {
 .g-5,
 .gx-5 {
   --bs-gutter-x: 3rem;
+}
+.label_head{
+
 }
 
 .g-5,
@@ -2156,7 +2173,16 @@ progress {
   }
 }
 .form-label {
+  font-size: 20;
+  font-weight: 400;
   margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+.my-lable{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
 }
 
 .col-form-label {
@@ -2405,8 +2431,8 @@ textarea.form-control-lg {
 }
 
 .form-select {
-  display: block;
-  width: 100%;
+  display: grid;
+  width: 60%;
   padding: 0.375rem 2.25rem 0.375rem 0.75rem;
   -moz-padding-start: calc(0.75rem - 3px);
   font-size: 1rem;
