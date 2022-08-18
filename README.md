@@ -17,7 +17,6 @@
 # Description 
 
 ## Data Source 
-  - https://www.kaggle.com/code/jominjae/airline-delay-prediction-logistic-decisiontree/data
   - https://www.kaggle.com/code/dongxu027/airline-delays-eda-deep-dive-lessons-learned/data
 
 ## Technologies Used 
