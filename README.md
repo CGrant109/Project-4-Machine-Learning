@@ -37,3 +37,6 @@
   - Confusion Matrix
 
 ## Output 
+![Process flow](static/assets/project4_proccess_flow.png)
+![user interface](static/assets/uib4.png)
+![predict ](static/assets/Ui.png)
