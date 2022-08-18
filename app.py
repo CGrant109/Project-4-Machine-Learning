@@ -13,7 +13,7 @@ app = Flask(__name__)
 #################################################
 # Using Logistic Regression Model
 
-model = load(open('./models/model_logreg_20220817', 'rb'))
+model = load(open('model_logreg_20220817.pkl', 'rb'))
 
 
 # Create connection variable
