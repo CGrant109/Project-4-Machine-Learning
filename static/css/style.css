@@ -899,7 +899,13 @@ size = 100%;
 .gx-5 {
   --bs-gutter-x: 3rem;
 }
-.label_head{
+#result{
+  text-align: center;
+  font-size : 20px;
+  font-weight: bold ;
+  color: rgba(44, 2, 2, 0.863);
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
 
 }
 
@@ -4883,6 +4889,7 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0.25rem;
 }
 
+
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
   font-size: 1.25rem;
@@ -7319,7 +7326,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
 }
-
+.my-5-y {
+  margin-top: 3rem !important;
+  margin-bottom: 0rem !important;
+}
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
