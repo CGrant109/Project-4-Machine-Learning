@@ -27,6 +27,9 @@
   - Javascript
   - Tableau
   - Flask
+  - D3
+  - MongoDB
+  
 
 ## Models Used
   - Logistic Regression
