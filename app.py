@@ -49,16 +49,16 @@ def send():
 
     # # Method 1:  Obtain form inputs and add to numpy array or dataframe
 
-    # cylinders = request.form["mpgCylinders"]
-    # displacement = request.form["mgpDisplacement"]
-    # horsepower = request.form["mpgHP"]
-    # weight = request.form["mpgWeight"]
-    # acceleration = request.form['mpgAcceleration']
+    # f_date = request.form["flightDate"]
+    # f_time = request.form["flightTime"]
+    # airline = request.form['airline']
+    # from_airport = request.form["selAirports1"]
+    # dest_airport = request.form["selAirports2"]
 
-    # use form results to make prediction
-    # features = [float(x) for x in request.form.values()]
+    # features = [f_date, f_time, airline, from_airport, dest_airport]
     # final_features = [np.array(features)]
     # prediction = model.predict(final_features)[0]
+    # print(prediction)
 
     # create html content - either single variable, dictionary, or string
     x = random.randint(0, 40)
