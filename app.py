@@ -48,7 +48,7 @@ def send():
     print(airports)
 
     # # Method 1:  Obtain form inputs and add to numpy array or dataframe
-
+# # because of data type differences more coding is needed to use the model and change inputs
     # f_date = request.form["flightDate"]
     # f_time = request.form["flightTime"]
     # airline = request.form['airline']
@@ -61,6 +61,8 @@ def send():
     # print(prediction)
 
     # create html content - either single variable, dictionary, or string
+
+    # only for presentation and showing
     x = random.randint(0, 40)
     prediction_text = f"The Flight Delay from Airport to destation airport based on the inputs is {x} Minutes."
 
