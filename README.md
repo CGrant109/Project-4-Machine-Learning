@@ -45,10 +45,10 @@
 
 # Tableau graphes 
 
-![](static/assets/# of Flights by City (City))
+![](static/assets/#_of_ Flights_ by_City.JPG))
 ![](static/assets/# of Flights by Day of the Week.JPG)
 ![](static/assets/# of Flights by Months.JPG)
-![](static/assets/Airport Locations.JPG)
+![](static/assets/Airport_Locations.JPG)
 ![](static/assets/Average Taxi In vs Out by Airport.JPG)
 ![](static/assets/Average Taxi Out vs In by Airline.JPG)
 ![](static/assets/Cancellation by Airport Locations.JPG)
