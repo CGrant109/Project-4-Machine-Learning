@@ -1,4 +1,4 @@
-[cover](static/assets/cover.jpg)
+[cover](static/assets/cover.png)
 [![original-Airline-Compensation-for-a-Flight-Delay-That-Means-a-Lost-Work-Day.jpg](https://i.postimg.cc/Y9r46MSG/original-Airline-Compensation-for-a-Flight-Delay-That-Means-a-Lost-Work-Day.jpg)](https://postimg.cc/v1KHMRfb)
 # Airline Delays Prediction using Machine Learning 
 #### Project 4: Northwestern Data Science Bootcamp 2022
