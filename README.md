@@ -1,3 +1,4 @@
+[cover](static/assets/delayboard.jpg)
 [![original-Airline-Compensation-for-a-Flight-Delay-That-Means-a-Lost-Work-Day.jpg](https://i.postimg.cc/Y9r46MSG/original-Airline-Compensation-for-a-Flight-Delay-That-Means-a-Lost-Work-Day.jpg)](https://postimg.cc/v1KHMRfb)
 # Airline Delays Prediction using Machine Learning 
 #### Project 4: Northwestern Data Science Bootcamp 2022
@@ -40,5 +41,23 @@
 ![Process flow](static/assets/project4_proccess_flow.png)
 ![user interface](static/assets/uib4.png)
 ![predict ](static/assets/Ui.png)
+
+
+# Tableau graphes 
+
+![](static/assets/# of Flights by City (City))
+![](static/assets/# of Flights by Day of the Week.JPG)
+![](static/assets/# of Flights by Months.JPG)
+![](static/assets/Airport Locations.JPG)
+![](static/assets/Average Taxi In vs Out by Airport.JPG)
+![](static/assets/Average Taxi Out vs In by Airline.JPG)
+![](static/assets/Cancellation by Airport Locations.JPG)
+![](static/assets/Delay Reasons by Airline.JPG)
+![](static/assets/Delay Reasons by Airport (Top 10).JPG)
+![](static/assets/Delays by Airport Locations.JPG)
+![](static/assets/Most used Airline in 2015.JPG)
+![](static/assets/Top 10 Busiest Airports.JPG)
+
+
 
 Thank you
