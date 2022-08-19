@@ -16,7 +16,7 @@
   - [Output](#output)
 
 # Description 
-
+Utilizing concepts of Machine Learning, along with Python - Pandas, Javascript, Tableau, and Flask, this group project analyzed monthly domestic flight information within the United States in 2015 to determine flight delay predictability.
 ## Data Source 
   - https://www.kaggle.com/code/dongxu027/airline-delays-eda-deep-dive-lessons-learned/data
 
@@ -39,11 +39,12 @@
 
 ## Output 
 ![Process flow](static/assets/project4_proccess_flow.png)
+using the logistic regression model web get the flight info from entries of the webpage and processes it, and show the prediction result on the page
 ![user interface](static/assets/uib4.png)
 ![predict ](static/assets/Ui.png)
 
 
-# Tableau graphes 
+# Tableau graphs 
 
 ![](static/assets/1.JPG))
 ![](static/assets/2.JPG)
