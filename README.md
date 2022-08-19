@@ -45,18 +45,18 @@
 
 # Tableau graphes 
 
-![](static/assets/#_of_ Flights_ by_City.JPG))
-![](static/assets/# of Flights by Day of the Week.JPG)
-![](static/assets/# of Flights by Months.JPG)
-![](static/assets/Airport_Locations.JPG)
-![](static/assets/Average Taxi In vs Out by Airport.JPG)
-![](static/assets/Average Taxi Out vs In by Airline.JPG)
-![](static/assets/Cancellation by Airport Locations.JPG)
-![](static/assets/Delay Reasons by Airline.JPG)
-![](static/assets/Delay Reasons by Airport (Top 10).JPG)
-![](static/assets/Delays by Airport Locations.JPG)
-![](static/assets/Most used Airline in 2015.JPG)
-![](static/assets/Top 10 Busiest Airports.JPG)
+![](static/assets/1.JPG))
+![](static/assets/2.JPG)
+![](static/assets/3.JPG)
+![](static/assets/4.JPG)
+![](static/assets/5.JPG)
+![](static/assets/6.JPG)
+![](static/assets/7.JPG)
+![](static/assets/8.JPG)
+![](static/assets/9.JPG)
+![](static/assets/13.JPG)
+![](static/assets/11.JPG)
+![](static/assets/12.JPG)
 
 
 
